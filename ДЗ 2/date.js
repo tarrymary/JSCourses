@@ -5,7 +5,7 @@ function getNewDate(date) {
 	var year =+ prompt("Введите текущий год");
 	var month =+ prompt("Введите текущий месяц") - 1;
 	var date =+ prompt("Введите сегодняшний день");
-	var d1 = new Date(year, month, date, 23, 59, 59)
+	var d1 = new Date(year, month, date, 23, 59, 59) //можно вместо 23:59:59 записать так же переменные hours, minutes, seconds и найти разницу сегодняшнего дня с любым другим
 	return d1;
 }
 
