@@ -27,13 +27,94 @@ var Bookkpng = {
 		return this.arrWorker.sort(function(a,b){
 			return a.pay < b.pay ? 1: -1;
 		})
+	},
+	//c
+	mid: function() {
+		return this.sum()/this.arrWorker.length;
+	},
+	//c
+	minmax: function() {
+		var sorted = this.sort();
+		return {
+			max: sorted[0],
+			min: sorted[this.arrWorker.length - 1]
+		}
+	},
+
+	//d 	Раскидываю всех работников в новые массивы по отделам
+	sortDep: function() {
+		var departaments = [[],[],[],[]]
+			
+		
+		this.arrWorker.forEach(function(worker) {
+			if(worker.departament == arrDep[0]) {
+				departaments[0].push(worker);
+			}
+
+			if(worker.departament == arrDep[1]) {
+				departaments[1].push(worker);
+			}
+
+			if(worker.departament == arrDep[2]) {
+				departaments[2].push(worker);
+			}
+
+			if(worker.departament == arrDep[3]) {
+				departaments[3].push(worker);
+			}
+		})
+		return departaments;
+	},
+
+	//Средний возраст по отделам
+	midAge: function() {
+		return this.sortDep().map(function(otdel) {
+			return otdel.length == 0 ? 0: otdel.reduce(function(prev, curr) {
+				return curr.age + prev;
+			}, 0) / otdel.length;
+		}) 
+	},
+
+	//Средняя зп по отделу
+	midPay: function() {
+		return this.sortDep().map(function(otdel) {
+			return otdel.length == 0 ? 0: otdel.reduce(function(prev, curr) {
+				return curr.pay + prev;
+			}, 0) / otdel.length;
+		}) 
+	},
+
+	//Суммарная зп по отделам
+	sumPay: function() {
+		return this.sortDep().map(function(otdel) {
+			return otdel.reduce(function(prev, curr) {
+				return curr.pay + prev;
+			}, 0)
+		}) 
+	},
+
+	//Количество сотрудников в отделах
+	depCount: function() {
+		return this.sortDep().map(function(otdel) {
+			return otdel.length;
+		}) 
+	},
+
+	//Самый продолжительный срок
+	exp: function() {
+		return this.sortDep().map(function(otdel) {
+			return otdel.sort(function(a, b) {
+				return a.exp < b.exp ? 1: -1;
+			})[0];
+		})
 	}
+
 }
 
 
 var arrName = ["Михаил", "Екатерина", "Владислав", "Антон", "Дарья", "Ангелина", "Елизавета", "Анастасия", "Артем", "Дмитрий", "Алексей"];
 var arrDep = ["Расчётный отдел", "Материальный отдел", "Производственный отдел", "Общий отдел"];
-var arrPay = [1000, 2000, 2500, 5000];
+var arrPay = [1000, 1500, 2000, 2500, 3000, 3500, 5000, 7000];
 
 
 function randElemofArray(arr) {
@@ -73,7 +154,38 @@ Bookkpng.arrWorker.forEach(function(human) {
 console.log("Средняя зарплата:", Bookkpng.sum());
 
 Bookkpng.sort();   //Вызываю функцию сортировки работников по зарплате
+
 console.log("Отсортированные работники");
+
 Bookkpng.arrWorker.forEach(function(human) {
 	human.print();
+});
+
+console.log(Bookkpng.mid());
+
+console.log("Работники с максимальной и минимальной зарплатой");
+
+var minmax = Bookkpng.minmax();
+
+minmax.max.print();
+minmax.min.print();
+
+console.log("Средние возрасты работников по отделам");
+console.log(Bookkpng.midAge());
+
+console.log("Средние зарплаты по отделам");
+console.log(Bookkpng.midPay());
+
+console.log("Суммарные зарплаты по отделам");
+console.log(Bookkpng.sumPay());
+
+console.log("Количества работников в отделах");
+console.log(Bookkpng.depCount());
+
+console.log("Самые опытные работники");
+
+Bookkpng.exp().forEach(function(human) {
+	if (human) {
+		human.print();
+	}	
 });
