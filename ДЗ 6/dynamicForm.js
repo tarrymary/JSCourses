@@ -29,4 +29,8 @@ function value2() {
 	s1.remove();
 	s2.remove();
 	n--;
+	if (n == 0) {
+		form.innerHTML = "y = <input type = 'text'></input>"
+		n++;
+	}
 }
