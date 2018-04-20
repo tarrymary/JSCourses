@@ -51,5 +51,3 @@ buttons[0].addEventListener("click", function() {
 }); 
 
 
-
-
