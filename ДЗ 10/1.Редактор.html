@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>editor</title>
+	<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+	<div class="buttons">
+		<button type="button" id="bold">B</button>
+		<button type="button" id="italic">I</button>
+		<button type="button" id="underline">U</button>
+		<button type="button" id="strike">S</button>
+		<div class="containers">
+			<ul class="submenu">
+				<button id="fsize">FS</button>
+				<li>
+					<ul class="submenu1">
+						<li class="sizes"><button id="size">1</button></li>
+						<li class="sizes"><button id="size">2</button></li>
+						<li class="sizes"><button id="size">3</button></li>
+						<li class="sizes"><button id="size">4</button></li>
+						<li class="sizes"><button id="size">5</button></li>
+						<li class="sizes"><button id="size">6</button></li>
+						<li class="sizes"><button id="size">7</button></li>
+					</ul>
+				</li>
+			</ul>
+		</div>
+		<div class="containers">
+			<ul class="submenu">
+				<button id="tcolor">TC</button>
+				<li>
+					<ul class="submenu1">
+						<li class="colors">
+							<button id="color" class="b b1"></button>
+						</li>
+						<li class="colors">
+							<button id="color" class="b b2"></button>
+						</li>
+						<li class="colors">
+							<button id="color" class="b b3"></button>
+						</li>
+					</ul>
+				</li>
+			</ul>
+		</div>
+		<div class="containers">
+			<ul class="submenu">
+				<button id="bcolor">BG</button>
+				<li>
+					<ul class="submenu1">
+						<li class="bgcolors">
+							<button id="bgcolor" class="b b1"></button>
+						</li>
+						<li class="bgcolors">
+							<button id="bgcolor" class="b b2"></button>
+						</li>
+						<li class="bgcolors">
+							<button id="bgcolor" class="b b3"></button>
+						</li>
+					</ul>
+				</li>
+			</ul>
+		</div>
+		<button id="par">P</button>
+		<button id="list">List</button>
+		<button id="link">Link</button>
+		<button id="unlink">unLink</button>
+		<button id="img">Img</button>
+		<button id="del">Delete</button>
+		<button id="ind">→</button>
+		<button id="out">←</button>
+		<button id="left">left</button>
+		<button id="center">center</button>
+		<button id="right">right</button>
+	</div>
+	<div contenteditable="true" class="text">
+		<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla laoreet odio in felis sodales mollis. Aenean blandit volutpat eros mattis gravida. Aenean sit amet arcu elit. Ut pretium ut dolor tincidunt vehicula. Cras tempus nulla eu ipsum gravida, sed ultricies orci mattis. Vivamus elit ligula, tempus ut pellentesque vel, vehicula eu turpis. Proin sit amet nunc quis ligula dignissim placerat. Mauris mi tortor, vulputate eget lacus nec, ultrices rhoncus nisi. Nulla facilisi. Proin id tortor vestibulum, lacinia nisl quis, lobortis lorem.</p>
+
+		<p>Nam mattis nisi tincidunt enim rutrum, vestibulum tincidunt neque ullamcorper. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Mauris tempus, ex faucibus dapibus porta, lacus velit vulputate massa, sed aliquet risus ipsum id purus.</p>
+
+		<p>Suspendisse a finibus orci. Nam feugiat, dui vel vestibulum tincidunt, felis orci fermentum risus, ut mollis diam tortor ac nisi. Aliquam nec turpis ut felis molestie aliquam ut eget nulla. Aliquam sit amet diam massa. Praesent eu neque mauris. Quisque a enim et mauris tincidunt faucibus id non ligula. Suspendisse eget maximus enim. Suspendisse bibendum, tortor vel rutrum aliquam, justo velit placerat augue, ut maximus tortor nibh eu sem.<p/>
+	</div>
+	<script src="editor.js"></script>
+</body>
+</html>
