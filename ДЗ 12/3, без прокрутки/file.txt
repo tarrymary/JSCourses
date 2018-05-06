@@ -1,0 +1,57 @@
+<div class="newscontainer">	
+	<div class="news1">
+		<h1>Lorem ipsum</h1>
+		<div class="news__item">
+			<p>
+				Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce et cursus mauris. In lacinia dolor vitae lectus ultrices blandit. Nulla maximus elementum vestibulum. Nulla semper eget mi non rutrum. Pellentesque tellus diam, porta vitae blandit non, egestas ac urna. Ut ut ipsum porttitor, volutpat lacus vel, maximus felis. Donec id arcu ac nibh dictum faucibus. Maecenas laoreet dolor id egestas condimentum. Vestibulum commodo vitae nulla cursus pulvinar. Praesent lacinia hendrerit est, sed suscipit orci ultricies varius. Morbi ullamcorper diam vitae mi malesuada sodales. Sed nunc libero, faucibus eu nulla hendrerit, gravida euismod eros. Nam euismod condimentum facilisis. Phasellus et molestie nunc. In pulvinar magna nec accumsan semper.
+			</p>
+			<img src="https://i.pinimg.com/564x/98/96/ab/9896ab56f49e8559c3cf12d0770414eb.jpg" alt="гиацинт" width="250px">
+		</div>
+		<p class="date">DD-MM-YYYY</p>
+	</div>
+	<hr>
+	<div class="news2">
+		<h1>Lorem ipsum</h1>
+		<div class="news__item">
+			<img src="https://i.pinimg.com/564x/fd/1c/8d/fd1c8de2a736d44b6deee2a3377fc518.jpg" width="250px">
+			<p>
+				Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce et cursus mauris. In lacinia dolor vitae lectus ultrices blandit. Nulla maximus elementum vestibulum. Nulla semper eget mi non rutrum. Pellentesque tellus diam, porta vitae blandit non, egestas ac urna. Ut ut ipsum porttitor, volutpat lacus vel, maximus felis. Donec id arcu ac nibh dictum faucibus. Maecenas laoreet dolor id egestas condimentum. Vestibulum commodo vitae nulla cursus pulvinar. Praesent lacinia hendrerit est, sed suscipit orci ultricies varius. Morbi ullamcorper diam vitae mi malesuada sodales. Sed nunc libero, faucibus eu nulla hendrerit, gravida euismod eros. Nam euismod condimentum facilisis. Phasellus et molestie nunc. In pulvinar magna nec accumsan semper.
+			</p>
+		</div>
+		<p class="date">DD-MM-YYYY</p>
+	</div>
+	<hr>
+	<div class="news3">
+		<h1>Lorem ipsum</h1>
+		<div class="news__item">
+			<p>
+				Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce et cursus mauris. In lacinia dolor vitae lectus ultrices blandit. Nulla maximus elementum vestibulum. Nulla semper eget mi non rutrum. Pellentesque tellus diam, porta vitae blandit non, egestas ac urna. Ut ut ipsum porttitor, volutpat lacus vel, maximus felis. Donec id arcu ac nibh dictum faucibus. Maecenas laoreet dolor id egestas condimentum. Vestibulum commodo vitae nulla cursus pulvinar. Praesent lacinia hendrerit est, sed suscipit orci ultricies varius. Morbi ullamcorper diam vitae mi malesuada sodales. Sed nunc libero, faucibus eu nulla hendrerit, gravida euismod eros. Nam euismod condimentum facilisis. Phasellus et molestie nunc. In pulvinar magna nec accumsan semper.
+			</p>
+			<img src="https://i.pinimg.com/564x/f1/ea/08/f1ea085194feb65ea03c0a86a5c3fbad.jpg" width="250px">
+		</div>
+		<p class="date">DD-MM-YYYY</p>
+	</div>
+	<hr>
+	<div class="news4">
+		<h1>Lorem ipsum</h1>
+		<div class="news__item">
+			<img src="https://i.pinimg.com/564x/ff/d7/5f/ffd75f25b009b9e6ebcff71957304d71.jpg" alt="koi" width="250px">
+			<p>
+				Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce et cursus mauris. In lacinia dolor vitae lectus ultrices blandit. Nulla maximus elementum vestibulum. Nulla semper eget mi non rutrum. Pellentesque tellus diam, porta vitae blandit non, egestas ac urna. Ut ut ipsum porttitor, volutpat lacus vel, maximus felis. Donec id arcu ac nibh dictum faucibus. Maecenas laoreet dolor id egestas condimentum. Vestibulum commodo vitae nulla cursus pulvinar. Praesent lacinia hendrerit est, sed suscipit orci ultricies varius. Morbi ullamcorper diam vitae mi malesuada sodales. Sed nunc libero, faucibus eu nulla hendrerit, gravida euismod eros. Nam euismod condimentum facilisis. Phasellus et molestie nunc. In pulvinar magna nec accumsan semper.
+			</p>
+		</div>
+		<p class="date">DD-MM-YYYY</p>
+	</div>
+	<hr>
+	<div class="news5">
+		<h1>Lorem ipsum</h1>
+		<div class="news__item">
+			<p>
+				Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce et cursus mauris. In lacinia dolor vitae lectus ultrices blandit. Nulla maximus elementum vestibulum. Nulla semper eget mi non rutrum. Pellentesque tellus diam, porta vitae blandit non, egestas ac urna. Ut ut ipsum porttitor, volutpat lacus vel, maximus felis. Donec id arcu ac nibh dictum faucibus. Maecenas laoreet dolor id egestas condimentum. Vestibulum commodo vitae nulla cursus pulvinar. Praesent lacinia hendrerit est, sed suscipit orci ultricies varius. Morbi ullamcorper diam vitae mi malesuada sodales. Sed nunc libero, faucibus eu nulla hendrerit, gravida euismod eros. Nam euismod condimentum facilisis. Phasellus et molestie nunc. In pulvinar magna nec accumsan semper.
+			</p>
+			<img src="https://i.pinimg.com/564x/61/8c/ce/618ccea8e975215ca2dbbe6193daa455.jpg" alt="flower" width="250px">
+		</div>
+		<p class="date">DD-MM-YYYY</p>
+	</div>
+	<hr>
+</div>

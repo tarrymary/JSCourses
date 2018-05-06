@@ -35,12 +35,11 @@ sizeBtnArr.forEach(function(item) {
 
 var tcolorBtn = document.getElementsByClassName("colors");
 var tcolorBtnArr = Array.from(tcolorBtn);
-
 var colorsOfText = ["red", "green", "blue"];
 
 tcolorBtnArr.forEach(function(item, i) { 
 	item.addEventListener("click", function() {
-		document.execCommand("forecolor", false, colors[i]);
+		document.execCommand("forecolor", false, colorsOfText[i]);
 	});
 });
 
