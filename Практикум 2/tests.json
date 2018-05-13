@@ -1,0 +1,31 @@
+[{
+	"name":"Тест 1",
+	"img":"http://arctic-union.ru/upload/medialibrary/230/vektor.png",
+	"time":"20:00",
+	"description":"Описание 1",
+	"file":"1.json"
+}, {
+	"name":"Тест 2",
+	"img":"https://image.flaticon.com/icons/png/512/87/87413.png",
+	"time":"20:00",
+	"description":"Описание 2",
+	"file":"2.json"
+}, {
+	"name":"Тест 3",
+	"img":"https://energy.s-kon.ru/wp-content/uploads/2016/06/logoconf.png",
+	"time":"15:00",
+	"description":"Описание 3",
+	"file":"3.json"
+}, {
+	"name":"Тест 4",
+	"img":"http://icons.iconarchive.com/icons/icons8/ios7/256/Maps-Compas-icon.png",
+	"time":"20:00",
+	"description":"Описание 4",
+	"file":"4.json"
+}, {
+	"name":"Тест 5",
+	"img":"https://3dnews.ru/assets/external/illustrations/2009/11/26/151111.png",
+	"time":"10:00",
+	"description":"Описание 5",
+	"file":"5.json"
+}]
